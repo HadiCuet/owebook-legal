@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Owe Book — Privacy Policy</title>
+<style>
+  :root {
+    --fg: #17231d;
+    --muted: #6b7280;
+    --bg: #ffffff;
+    --panel: #f4f4f2;
+    --border: #e4e0d4;
+    --accent: #9a6f16;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #f4f4f5;
+      --muted: #a1a1aa;
+      --bg: #0b0b0c;
+      --panel: #18181b;
+      --border: #27272a;
+      --accent: #d4a93f;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  h1 { font-size: 2.1rem; line-height: 1.2; letter-spacing: -0.02em; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; margin: 40px 0 10px; letter-spacing: -0.01em; }
+  h3 { font-size: 1rem; margin: 24px 0 8px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+  .effective { color: var(--muted); font-size: 0.95rem; margin: 0 0 8px; }
+  .intro { font-size: 1.05rem; color: var(--muted); margin: 16px 0 0; }
+  hr { border: 0; border-top: 1px solid var(--border); margin: 36px 0; }
+  p, ul, ol { margin: 10px 0; }
+  ul, ol { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(154, 111, 22, 0.3); }
+  a:hover { border-bottom-color: var(--accent); }
+  strong { font-weight: 650; }
+  code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 0.9em; background: var(--panel); border: 1px solid var(--border); padding: 1px 6px; border-radius: 4px; }
+  footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Owe Book — Privacy Policy</h1>
+<p class="effective"><strong>Effective date:</strong> July 4, 2026</p>
+<p class="intro">Owe Book is a personal lend-and-borrow tracker — a private notebook for who owes what. This policy explains, in plain English, what data the app handles and the choices you have. The short version: your ledger stays on your device (and, if you turn it on, your own private iCloud), and we never see it.</p>
+
+<hr>
+
+<h2>1. Who we are</h2>
+<p>Owe Book is an iOS app developed and operated by <strong>Abdullah Al Hadi</strong> (publishing as Mukashi) ("we", "us"). For the purposes of the EU/UK/EEA General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA/CPRA), Abdullah Al Hadi is the <strong>data controller</strong> for personal data handled through the app. For any privacy question, contact <strong>mukashi.dev@gmail.com</strong>.</p>
+
+<hr>
+
+<h2>2. Data we collect</h2>
+
+<h3>Stays only on your device — never sent to us</h3>
+<p>Everything you record in Owe Book is stored locally on your device using Apple's SwiftData framework. <strong>We have no server that stores your ledger, and we cannot read it.</strong></p>
+<ul>
+  <li><strong>People</strong> you add — names, phone numbers, and any optional relationship label, whether typed in or picked from your Contacts.</li>
+  <li><strong>Transactions</strong> — amounts, currencies, dates, payment modes, notes, and due dates.</li>
+  <li><strong>Receipt and settlement-proof images</strong> you attach.</li>
+  <li><strong>Groups and bill splits</strong>, and your <strong>settings</strong> (home currency, app-lock and sync preferences).</li>
+</ul>
+<p><strong>iCloud Sync (optional).</strong> If you enable iCloud Sync in Settings, the app mirrors your ledger to the <strong>private</strong> database of your own iCloud account (Apple CloudKit), so it stays in sync across your Apple devices. That data lives in your iCloud, is governed by Apple, and is <strong>not</strong> visible to us. You can turn sync off at any time.</p>
+
+<h3>Sent to Firebase (Google)</h3>
+<p>We use two Firebase services from Google to improve the app: <strong>Analytics</strong> and <strong>Crashlytics</strong>. Neither uses advertising identifiers, cross-app tracking, or ads.</p>
+<p><strong>Firebase Analytics</strong> collects:</p>
+<ul>
+  <li>A per-install device identifier (a Firebase app-instance ID). It cannot identify you across other apps and resets if you reinstall.</li>
+  <li>Device model, OS version, app version, language, and country (derived from IP, which Google then discards from the event).</li>
+  <li>Anonymous feature-usage events — for example that an entry was created (its type and currency code), that a group had a certain number of members, that the paywall was shown, or that a setting was toggled. Each event carries only categorical values and on/off flags. One user property, <code>is_pro</code> (<code>true</code>/<code>false</code>), records whether Owe Book Pro is unlocked.</li>
+  <li><strong>We never send</strong> the names, phone numbers, amounts, note text, or images in your ledger.</li>
+</ul>
+<p><strong>We do not request App Tracking Transparency</strong> and never read your IDFA. <strong>We never call <code>setUserID()</code></strong> — there is no account and no persistent identity tied to you.</p>
+<p><strong>Firebase Crashlytics</strong> collects data only when the app crashes or reports a handled error: the stack trace, a snapshot of device state (model, OS version, free memory/disk), a per-install Crashlytics identifier, and a small set of non-identifying custom keys we attach to aid triage — currently only the <code>is_pro</code> flag. Crash reports are not designed to contain your ledger content.</p>
+
+<h3>Purchases (Owe Book Pro)</h3>
+<p>Owe Book is free, with an optional one-time in-app purchase (<strong>Owe Book Pro</strong>) handled through Apple's StoreKit. <strong>Apple processes the payment</strong> — your card and billing details are never seen by the app or by us. The app stores whether Pro is unlocked, and analytics records only non-financial purchase events (that a purchase started, completed, or failed, plus the product identifier and price/currency) — never receipts, transaction IDs, or payment methods. <strong>Restore Purchases</strong> asks Apple (not us) which products are tied to your Apple Account.</p>
+
+<hr>
+
+<h2>3. Permissions the app asks for</h2>
+<ul>
+  <li><strong>Contacts</strong> — optional, only when you add a person from your address book. Only the contact you pick (name and phone) is used; we do not read or upload your full contact list.</li>
+  <li><strong>Photos</strong> — optional, only when you attach a receipt or proof image. Only the image you pick is saved with that entry; we do not scan your library.</li>
+  <li><strong>Face ID / passcode</strong> — optional, only when you enable App Lock. The check happens locally via Apple's LocalAuthentication framework; your biometric data never leaves the device and is never seen by the app.</li>
+  <li><strong>Notifications</strong> — optional, only when you schedule a reminder. Used to deliver a local reminder at the time you choose; not used for marketing.</li>
+</ul>
+<p>The app does <strong>not</strong> request the camera, microphone, location, calendar, motion, or health data.</p>
+
+<hr>
+
+<h2>4. How we use this data</h2>
+<ul>
+  <li><strong>Local data</strong> powers the app's features — showing your balances, statements, and reminders. It is not used for anything else.</li>
+  <li><strong>Firebase Analytics</strong> tells us, in aggregate, which features are used so we can decide what to improve. We look at counts, not individuals.</li>
+  <li><strong>Firebase Crashlytics</strong> tells us when and why the app crashes so we can fix the bug.</li>
+</ul>
+<p>We do <strong>not</strong> sell your personal information, and we do not share it for cross-context behavioural advertising (as those terms are defined under the CCPA/CPRA). We do not build profiles across other apps or share data with advertisers or data brokers.</p>
+
+<hr>
+
+<h2>5. Who we share data with</h2>
+<p>The only third party the app sends data to is <strong>Firebase</strong>, operated by Google LLC (and, for EEA/UK/Swiss users, Google Ireland Limited), which processes Analytics and Crashlytics data as our service provider under the <a href="https://firebase.google.com/terms/data-processing-terms">Firebase Data Processing Terms</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. Apple processes your in-app purchases and, if you enable it, your iCloud sync, under the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>. We may also disclose information where required by valid legal process. No other analytics, advertising, or tracking SDK is bundled in the app.</p>
+<p>Google primarily processes Firebase data on servers in the <strong>United States</strong>. For EEA/UK/Swiss users, international transfers rely on the Standard Contractual Clauses incorporated into Google's terms.</p>
+
+<hr>
+
+<h2>6. How long we keep it</h2>
+<ul>
+  <li><strong>Local data</strong> — kept on your device until you delete it or uninstall the app. Uninstalling removes it.</li>
+  <li><strong>Firebase Analytics</strong> — retained by Google per Firebase's default event retention (up to 14 months).</li>
+  <li><strong>Firebase Crashlytics</strong> — retained by Google for 90 days.</li>
+</ul>
+
+<hr>
+
+<h2>7. Your rights and choices</h2>
+<ul>
+  <li><strong>Edit or delete</strong> any person, transaction, or group directly in the app; turn off iCloud Sync in Settings; or uninstall the app to remove all local data.</li>
+  <li><strong>Turn off analytics system-wide</strong> — iOS <strong>Settings → Privacy &amp; Security → Analytics &amp; Improvements</strong>.</li>
+  <li><strong>Access or erasure</strong> under GDPR (EEA/UK), CCPA/CPRA (California), or similar laws — email <strong>mukashi.dev@gmail.com</strong>. Because analytics data is not tied to a persistent identity, the most reliable erasure is uninstalling the app, which invalidates the per-install identifiers.</li>
+  <li><strong>Lodge a complaint</strong> with your local data-protection authority if you're in the EEA, UK, or Switzerland — though we'd appreciate the chance to help first.</li>
+</ul>
+
+<hr>
+
+<h2>8. Children's privacy</h2>
+<p>Owe Book is a general-audience app and is not directed to children under 13 (or the minimum age in your country). We do not knowingly collect personal information from children. If you believe a child has provided us information, email <strong>mukashi.dev@gmail.com</strong> and we will delete it.</p>
+
+<hr>
+
+<h2>9. Security</h2>
+<ul>
+  <li>Local data is stored in iOS's app sandbox and encrypted at rest by the device when a passcode is set. You can add an optional Face ID / passcode <strong>App Lock</strong> to the app itself.</li>
+  <li>Data synced to iCloud is encrypted in transit and at rest by Apple; data sent to Firebase travels over HTTPS (TLS).</li>
+  <li>We operate no server that holds your ledger. No method is perfectly secure, but we keep our data footprint deliberately small and will notify you of a breach as required by law.</li>
+</ul>
+
+<hr>
+
+<h2>10. Changes &amp; contact</h2>
+<p>If we change this policy, the new version replaces this page and the "Effective date" above is updated; material changes are noted in the app's release notes. This policy also applies alongside our <a href="terms.html">Terms of Use</a>.</p>
+<p>Questions, requests, or complaints: <strong>mukashi.dev@gmail.com</strong>.</p>
+
+<footer>
+  © 2026 Abdullah Al Hadi (Mukashi). Owe Book. Last updated July 4, 2026.
+</footer>
+
+</main>
+</body>
+</html>
