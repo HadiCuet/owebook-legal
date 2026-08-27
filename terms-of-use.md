@@ -1,6 +1,6 @@
 # Owe Book — Terms of Use
 
-**Effective date:** July 4, 2026
+**Effective date:** August 27, 2026
 
 These terms govern your use of the Owe Book iOS app. In short: Owe Book is a private notebook for tracking who owes what — not a bank, lender, or payment service. The debts you record are between you and other people, not with us.
 
@@ -20,7 +20,9 @@ You must be at least 13 (or the minimum age of digital consent where you live) a
 
 ## 4. Owe Book Pro & payments
 
-Owe Book is free to use. **Owe Book Pro** is an optional one-time in-app purchase (a non-consumable) that unlocks extra features; the included features may change over time. Purchases are processed by **Apple** through the App Store under the [Apple Media Services Terms](https://www.apple.com/legal/internet-services/itunes/). You can restore Pro on your devices with "Restore Purchases." **Refunds are handled by Apple**, not us — request them at [reportaproblem.apple.com](https://reportaproblem.apple.com). Owe Book Pro is not a subscription and does not renew.
+Owe Book is free to use. **Owe Book Pro** is an optional in-app purchase that unlocks extra features; the included features may change over time. Pro is offered as a **monthly or yearly auto-renewing subscription**, or as a **one-time purchase** (a non-consumable) that never renews — you choose which when you buy. Purchases are processed by **Apple** through the App Store under the [Apple Media Services Terms](https://www.apple.com/legal/internet-services/itunes/).
+
+A subscription renews automatically at the then-current price unless you cancel at least 24 hours before the end of the current period. You can manage or cancel a subscription at any time in your App Store account settings; cancelling stops the next renewal and does not refund the period you are already in. The one-time purchase is billed once and does not renew. You can restore Pro on your devices with "Restore Purchases." **Refunds are handled by Apple**, not us — request them at [reportaproblem.apple.com](https://reportaproblem.apple.com).
 
 ## 5. Your content & responsibilities
 

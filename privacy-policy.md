@@ -1,6 +1,6 @@
 # Owe Book — Privacy Policy
 
-**Effective date:** July 4, 2026
+**Effective date:** August 27, 2026
 
 Owe Book is a personal lend-and-borrow tracker — a private notebook for who owes what. This policy explains, in plain English, what data the app handles and the choices you have. The short version: your ledger stays on your device (and, if you turn it on, your own private iCloud), and we never see it.
 
@@ -42,7 +42,7 @@ We use two Firebase services from Google to improve the app: **Analytics** and *
 
 ### Purchases (Owe Book Pro)
 
-Owe Book is free, with an optional one-time in-app purchase (**Owe Book Pro**) handled through Apple's StoreKit. **Apple processes the payment** — your card and billing details are never seen by the app or by us. The app stores whether Pro is unlocked, and analytics records only non-financial purchase events (that a purchase started, completed, or failed, plus the product identifier and price/currency) — never receipts, transaction IDs, or payment methods. **Restore Purchases** asks Apple (not us) which products are tied to your Apple Account.
+Owe Book is free, with optional paid plans (**Owe Book Pro** — a monthly or yearly subscription, or a one-time purchase) handled through Apple's StoreKit. **Apple processes the payment** — your card and billing details are never seen by the app or by us. The app stores whether Pro is unlocked, and analytics records only non-financial purchase events (that a purchase started, completed, or failed, plus the product identifier and price/currency) — never receipts, transaction IDs, or payment methods. **Restore Purchases** asks Apple (not us) which products are tied to your Apple Account.
 
 ---
 
