@@ -25,7 +25,7 @@ Everything you record in Owe Book is stored locally on your device using Apple's
 
 **Backups.** The app keeps a recovery copy of your ledger on the device, so it can be put back if something goes wrong. **Export Backup** saves a file of your ledger wherever you choose; from then on, that file is yours to keep or delete.
 
-**iCloud Sync (Owe Book Pro).** When iCloud Sync is on in Settings, the app mirrors your ledger to the **private** database of your own iCloud account (Apple CloudKit), so it stays the same on your iPhone, iPad and Mac. That data lives in your iCloud, is governed by Apple, and is **not** visible to us. You can turn sync off at any time. iCloud Sync is part of Owe Book Pro and stays free for anyone who used Owe Book before version 1.4. If Pro ends, sync stops and your ledger stays on the device.
+**iCloud Sync (Owe Book Pro).** When iCloud Sync is on in Settings, the app mirrors your ledger to the **private** database of your own iCloud account (Apple CloudKit), so it stays the same on your iPhone, iPad and Mac. That data lives in your iCloud, is governed by Apple, and is **not** visible to us. You can turn sync off at any time. iCloud Sync is part of Owe Book Pro and stays free for anyone who used Owe Book before version 2.0. If Pro ends, sync stops and your ledger stays on the device.
 
 ### Shared groups — stored in iCloud, shared through Apple
 
