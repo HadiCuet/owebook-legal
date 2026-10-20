@@ -1,6 +1,6 @@
 # Owe Book Legal
 
-Legal documents for the **Owe Book** iOS app — a personal lend-and-borrow tracker (who owes what).
+Legal documents for the **Owe Book** app for iPhone, iPad and Mac — a personal lend-and-borrow tracker (who owes what).
 
 - **Privacy Policy** — live at the GitHub Pages URL for this repo ([`index.html`](index.html))
 - **Terms of Use** — [`terms.html`](terms.html)

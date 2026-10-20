@@ -1,8 +1,8 @@
 # Owe Book — Terms of Use
 
-**Effective date:** August 27, 2026
+**Effective date:** October 20, 2026
 
-These terms govern your use of the Owe Book iOS app. In short: Owe Book is a private notebook for tracking who owes what — not a bank, lender, or payment service. The debts you record are between you and other people, not with us.
+These terms govern your use of the Owe Book app on iPhone, iPad and Mac. In short: Owe Book is a private notebook for tracking who owes what — not a bank, lender, or payment service. The debts you record are between you and other people, not with us.
 
 ---
 
@@ -20,39 +20,49 @@ You must be at least 13 (or the minimum age of digital consent where you live) a
 
 ## 4. Owe Book Pro & payments
 
-Owe Book is free to use. **Owe Book Pro** is an optional in-app purchase that unlocks extra features; the included features may change over time. Pro is offered as a **monthly or yearly auto-renewing subscription**, or as a **one-time purchase** (a non-consumable) that never renews — you choose which when you buy. Purchases are processed by **Apple** through the App Store under the [Apple Media Services Terms](https://www.apple.com/legal/internet-services/itunes/).
+Owe Book is free to use. **Owe Book Pro** is an optional in-app purchase that unlocks extra features, listed in the app and on our [Support page](support.html); the included features may change over time. Pro is offered as a **monthly or yearly auto-renewing subscription**, or as a **one-time purchase** (a non-consumable) that never renews — you choose which when you buy. Prices are shown in the app and on the App Store, and may change. Purchases are processed by **Apple** through the App Store under the [Apple Media Services Terms](https://www.apple.com/legal/internet-services/itunes/).
+
+**Free trial.** New subscribers to the yearly plan get a **7-day free trial** — Apple's introductory offer, available once per Apple ID. Unless you cancel at least 24 hours before the trial ends, the yearly subscription starts and is charged to your Apple ID.
 
 A subscription renews automatically at the then-current price unless you cancel at least 24 hours before the end of the current period. You can manage or cancel a subscription at any time in your App Store account settings; cancelling stops the next renewal and does not refund the period you are already in. The one-time purchase is billed once and does not renew. You can restore Pro on your devices with "Restore Purchases." **Refunds are handled by Apple**, not us — request them at [reportaproblem.apple.com](https://reportaproblem.apple.com).
 
+**Family Sharing.** The one-time purchase can be shared with members of your family through Apple's Family Sharing. Subscriptions are not shared.
+
+**If Pro ends**, nothing you've recorded is deleted. Shared groups keep working and your existing groups stay, but Pro features stop — for example, repeating entries pause, and iCloud sync of your ledger stops, so the ledger stays on your device.
+
 ## 5. Your content & responsibilities
 
-Your ledger — the people, amounts, notes, and images you record — is **your content**, stored on your device and your own iCloud (see the [Privacy Policy](index.html)). You are responsible for the accuracy of what you record, for having the right to store any information you add about other people and using it lawfully, for keeping your device and Apple Account secure, and for your own backups. Owe Book does arithmetic on the numbers you enter but cannot know whether they are correct.
+Your ledger — the people, amounts, notes, and images you record — is **your content**, stored on your devices and, if you use iCloud Sync, your own iCloud (see the [Privacy Policy](index.html)). You are responsible for the accuracy of what you record, for having the right to store any information you add about other people and using it lawfully, for keeping your device and Apple Account secure, and for your own backups. Owe Book does arithmetic on the numbers you enter but cannot know whether they are correct.
 
-## 6. Acceptable use
+## 6. Shared groups
+
+When a group is shared, everything anyone adds to it — names, expenses, payments, notes, and receipt photos — is **visible to and editable by everyone in the group**. The person who shared it (the owner) controls the group: they can stop sharing it or delete it for everyone, and anyone else can leave it at any time. Sharing a group needs Owe Book Pro; joining one is free. A shared group is stored in the owner's iCloud and shared through Apple (see the [Privacy Policy](index.html)). You are responsible for what you add to a shared group, and for having the right to share the names of other people you add to it.
+
+## 7. Acceptable use
 
 You agree not to use the app for any unlawful purpose (including fraud, money laundering, or harassment), not to record or share others' information in violation of their privacy or the law, and not to interfere with, disrupt, or attempt unauthorised access to the app or its systems.
 
-## 7. No financial or legal advice
+## 8. No financial or legal advice
 
 Owe Book is provided for personal record-keeping only. Nothing in the app is financial, accounting, tax, or legal advice. For advice about your situation, consult a qualified professional.
 
-## 8. Disclaimer & limitation of liability
+## 9. Disclaimer & limitation of liability
 
 The app is provided **"as is" and "as available," without warranties of any kind**, to the maximum extent permitted by law. We do not warrant that it will be uninterrupted, error-free, or that data will always be preserved or synced without loss — keep your own records of anything important. To the maximum extent permitted by law, we are not liable for any indirect, incidental, or consequential damages, or for any loss arising from a debt you tracked using the app; our total liability will not exceed the greater of what you paid for Owe Book Pro in the prior 12 months or USD 10. Some jurisdictions don't allow certain exclusions, so parts of this may not apply to you.
 
-## 9. Termination & changes
+## 10. Termination & changes
 
 You may stop using the app any time by deleting it. We may suspend access if you materially breach these terms. We may add, change, or remove features, and may update these terms; material changes will be noted in the app's release notes, and continued use means you accept the revised terms. Sections that should survive termination (intellectual property, disclaimers, liability) continue to apply.
 
-## 10. Governing law
+## 11. Governing law
 
 These terms are governed by the laws of **Bangladesh**, without regard to conflict-of-laws rules, and the courts of Bangladesh have exclusive jurisdiction — except where mandatory local consumer-protection law lets you bring proceedings in your country of residence.
 
-## 11. App Store (Apple) terms
+## 12. App Store (Apple) terms
 
 Because you obtained Owe Book through Apple's App Store: these terms are between you and us, **not Apple**, and Apple is not responsible for the app; Apple has no obligation to provide maintenance or support; if the app fails to conform to any warranty you may notify Apple, who may refund the purchase price, and Apple has no other warranty obligation; we (not Apple) are responsible for any product-liability, legal-compliance, or intellectual-property claims relating to the app; you confirm you are not in a U.S.-embargoed or prohibited-party jurisdiction; and **Apple and its subsidiaries are third-party beneficiaries of these terms** and may enforce them against you.
 
-## 12. Contact
+## 13. Contact
 
 Questions about these terms: **mukashi.dev@gmail.com**.
 
